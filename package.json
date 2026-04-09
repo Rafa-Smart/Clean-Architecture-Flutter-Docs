@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs --port 3000 --host 0.0.0.0",
-    "build": "vitepress build docs",
+    "docs:build": "vitepress build docs",
     "preview": "vitepress preview docs --port 3000",
     "clean": "rm -rf docs/.vitepress/dist",
     "lint": "tsc --noEmit"
